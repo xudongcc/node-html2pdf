@@ -19,3 +19,7 @@ export async function html2pdf(data: string, format: puppeteer.PDFFormat = "A4",
 
     return pdf;
 }
+
+export {
+    PDFFormat,
+} from "puppeteer";
