@@ -1,8 +1,9 @@
 {
   "name": "node-html2pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "dependencies": {
     "puppeteer": "^1.1.1"
   },
