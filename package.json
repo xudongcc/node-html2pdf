@@ -1,16 +1,16 @@
 {
   "name": "node-html2pdf",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "dependencies": {
+    "@types/puppeteer": "^1.1.0",
     "puppeteer": "^1.1.1"
   },
   "devDependencies": {
     "@types/jest": "^22.2.0",
     "@types/node": "^9.4.7",
-    "@types/puppeteer": "^1.1.0",
     "jest": "^22.4.2",
     "ts-jest": "^22.4.1",
     "typescript": "^2.7.2"
